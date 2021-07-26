@@ -1,0 +1,26 @@
+
+.each-news-wrapper {
+    width: 1200px;
+    background-color: rgb(233, 233, 240);
+    margin: 130px auto;
+    padding: 50px;
+    box-shadow: 2px 2px 10px #aaaaaa;
+    font-family: 'Lexend', sans-serif;
+    animation: top-bottom 0.23s ease-in-out forwards;
+}
+
+.each-news-wrapper img{
+    width:300px
+}
+
+ @keyframes top-bottom{
+    100%{       
+         opacity:1;
+    }
+     50%{   
+         opacity:0.3;
+    }
+     0%{
+        opacity:0;
+    }
+} 
